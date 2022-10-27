@@ -109,7 +109,10 @@ main section p{
 .footer__p{
     color: #56667A;
 }
-
+.inicio__wave{
+    width: 100%;
+    color: #f73f52;
+}
 /*  SOBRE MI */
 
 .sobremi__main{
