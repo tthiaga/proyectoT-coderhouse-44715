@@ -6,112 +6,65 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    text-decoration: mp;
-}
-.active{
-    color: #f73f52;
-    text-decoration: overline;
-    transform: scale(1.5);
-}
-.active:hover{
-    color: #56667A;
-    transform: inherit;
-}
-.logo{
-    width: 100px;
-    height: 85px;
-    float: left;
-}
-.logo:hover{
-    transform: scale(1.5);
-    transition: 0.5s;
-}
-ul{
-    overflow: hidden;
-    list-style: none;
-    display: inline-block;
-}
-.nav{
-    background-color: #ede6e3;
-    top: 0%;
-    width: 100%;
-    text-align: right;
-    min-height: 15vh;
-    position: sticky;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 10px;
-}
-ul li{
-    float: left;
-    padding-top: 20px;
-}
-li a{
-    display: block;
-    color: #56667A;
-    text-align: right;
-    padding: 15px 30px;
     text-decoration: none;
-}
-li a:hover{
-    color: #f73f52;
-    transform: scale(1.5);
-    transition: 0.5s;
+    list-style: none;
 }
 .main{
-    background-color: #DADAD9;
-    min-height: 75vh;
+    min-height: 85vh;
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .hero{
-    padding-top: 100px;
-    padding-bottom: 50px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 }
 .inicio__titulo{
-    color: #f73f52;
+    color: #fab012;
     font-size: 130px;
 }
 .inicio__p{
     font-size: 25px;
 }
 main section p{
-    color: #56667A;
+    color: white;
     padding-bottom: 90px;
 }
 .mainButton{
     text-decoration: none;
-    color: #f73f52;
+    color: #fab012;
     font-size: 25px;
 }
 .mainButton:hover{
-    color: #56667A;
+    color: white;
     transition: 0.5s;
 }
 .footer{
-    min-height: 10vh;
-    background-color: #ede6e3;
+    min-height: 9vh;
+    background-color: #212529;
     padding-top: 30px;
-    padding-left: 100px;
+    padding-left: 30px;
 }
 .footer__icon{
-    color: #56667A;
+    color: white;
     float: right;
 }
 .fa-solid{
-    color: #56667A;
+    color: white;
     float: right;
     padding-right: 30px;
     text-decoration: none;
 }
 .footer__p{
-    color: #56667A;
+    color: white;
 }
-.inicio__wave{
-    width: 100%;
-    color: #f73f52;
+@media screen and (max-width: 1024px){
+    .hero{
+        padding: 35px;
+    }
 }
 /*  SOBRE MI */
 
@@ -124,7 +77,7 @@ main section p{
     border-radius:150px;
 }
 .sobremi__titulo{
-    color: #f73f52;
+    color: #fab012;
     font-size: 80px;
     padding-bottom: 30px;
 }
@@ -133,29 +86,48 @@ main section p{
     padding: 30px 20px 0px 20px;
 }
 .sobremi__p2{
-    color: #f73f52;
+    color: #fab012;
     font-size: 30px;
     padding: 40px 20px 0px 20px;
 }
 .sobremi__ul{
     display: flex;
     flex-direction: column;
-    color: #56667A;
+    color: white;
     font-size: 20px;
     padding-bottom: 50px;
 }
-
+@media screen and (max-width: 1024px){
+    .sobremi__titulo{
+        font-size: 60px;
+    }
+    .sobremi__p2{
+        font-size: 25px;
+    }
+    .sobremi__ul{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 475px){
+    .sobremi__titulo{
+        font-size: 40px;
+    }
+    .sobremi__p{
+        font-size: 15px;
+    }
+    .sobremi__ul{
+        font-size: 15px;
+    }
+}
 /* CONTACTO */
 
 .contacto__main{
-    background-color: #DADAD9;
-    min-height: 75vh;
+    min-height: 85vh;
     font-size: 16px;
 }
 .contacto__contenedor{
     width: 90%;
     max-width: 1000px;
-    background-color: #DADAD9;
     padding: 40px;
     margin: auto;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -165,7 +137,7 @@ main section p{
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
-    color: #f73f52;
+    color: #fab012;
 }
 .contacto__contenido{
     display: flex;
@@ -189,11 +161,11 @@ main section p{
     flex-wrap: nowrap;
 }
 .contacto__info .contacto__col .icono{
-    color: #56667A;
+    color: #212529;
     font-size: 20px;
 }
 .contacto__info .contacto__col p{
-    color: #56667A;
+    color: white;
     line-height: 24px;
 }
 .contacto__info .contacto__redes{
@@ -207,8 +179,8 @@ main section p{
     display: flex;
     width: 40px;
     height: 40px;
-    background-color: #ede6e3;
-    color: #56667A;
+    background-color: #212529;
+    color: white;
     justify-content: center;
     text-decoration: none;
     align-items: center;
@@ -219,10 +191,10 @@ main section p{
 }
 .contacto__info .contacto__redes a:hover{
     box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
-    background-color: #f73f52;
+    background-color: #fab012;
     transform: scale(1.1);
     transition: 0.5s;
-    color: #DADAD9;
+    color: #212529;
 }
 .contacto__formulario{
     padding-left: 10px;
@@ -231,8 +203,8 @@ main section p{
     width: 100%;
     margin-bottom: 15px;
     padding: 12px 20px;
-    border: 1px solid #56667A;
-    color: #56667A;
+    border: 1px solid #fab012;
+    color: #212529;
     font-weight: 400;
     outline: 0;
 }
@@ -240,8 +212,8 @@ main section p{
     width: 100%;
     margin-bottom: 15px;
     padding: 12px 20px;
-    border: 1px solid #56667A;
-    color: #56667A;
+    border: 1px solid #fab012;
+    color: #212529;
     font-weight: 400;
     outline: 0;
 }
@@ -249,8 +221,8 @@ main section p{
     width: 100%;
     margin-bottom: 15px;
     padding: 12px 20px;
-    border: 1px solid #56667A;
-    color: #56667A;
+    border: 1px solid #fab012;
+    color: #212529;
     font-weight: 400;
     outline: 0;
 }
@@ -258,8 +230,8 @@ main section p{
     width: 100%;
     margin-bottom: 15px;
     padding: 12px 20px;
-    border: 1px solid #56667A;
-    color: #56667A;
+    border: 1px solid #fab012;
+    color: #212529;
     font-weight: 400;
     outline: 0;
     max-width: 100%;
@@ -268,38 +240,63 @@ main section p{
     max-height: 200px;
 }
 .contacto__formulario input[type="text"]:focus{
-    border: 2px solid #f73f52;
+    border: 2px solid #fab012;
 }
 .contacto__formulario input[type="email"]:focus{
-    border: 2px solid #f73f52;
+    border: 2px solid #fab012;
 }
 .contacto__formulario input[type="number"]:focus{
-    border: 2px solid #f73f52;
+    border: 2px solid #fab012;
 }
 .contacto__formulario textarea:focus{
-    border: 2px solid #f73f52;
+    border: 2px solid #fab012;
 }
 .contacto__formulario button{
     padding: 12px 30px;
     border: transparent;
-    background-color: #f73f52;
-    color: #DADAD9;
+    background-color: #fab012;
+    color: #212529;
     cursor: pointer;
     float: right;
 }
-
+@media screen and (max-width: 1120px){
+    .contacto__contenido{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto__formulario{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto__contenedor{
+        width: 60%;
+    }
+    .contacto__info{
+        padding-left: 250px;
+    }
+}
+@media screen and (max-width: 767px){
+    .contacto__info{
+        display: none;
+    }
+}
 /* FAQ */
 
 .main__faq{
-    background-color: #DADAD9;
-    min-height: 75vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 40px;
 }
 .faq__preguntas{
-    color: #f73f52;
+    color: #fab012;
     font-size: 45px;
     font-weight: 600;
     text-align: center;
@@ -307,14 +304,27 @@ main section p{
     padding-bottom: 15px;
 }
 .faq__respuestas{
-    color: rgb(86, 102, 122);
+    color: white;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
+@media screen and (max-width: 1320px){
+    .faq__preguntas{
+        font-size: 35px;
+    }
+    .faq__respuestas{}
+}
+@media screen and (max-width: 795px){
+    .faq__preguntas{
+        font-size: 25px;
+    }
+    .faq__respuestas{
+        font-size: 18px;
+    }
+}
 /* PORFTOLIO */
 
 .main__portfolio{
@@ -324,13 +334,13 @@ main section p{
     align-items: center;
 }
 .portfolio__p1{
-    color: #f73f52;
+    color: #fab012;
     font-size: 50px;
     margin-bottom: 30px;
     margin-top: 50px;
 }
 .portfolio__p2{
-    color: #f73f52;
+    color: #fab012;
     font-size: 50px;
     margin-bottom: 30px;
     margin-top: 0px;
@@ -357,26 +367,13 @@ main section p{
     justify-content: center;
     align-items: center;
 }
-.portfolio__galeria{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-}
-.portfolio__video{
-    width: 100%;
-    height: 100%;
-    padding: 25px;
-    margin: 15px;
-    padding-bottom: 100px;
-}
 .portfolio__titulos{
-    color: #f73f52;
+    color: #fab012;
     font-size: 40px;
     font-weight: 600;
     padding-top: 100px;
 }
 .portfolio__img:hover{
     transform: scale(1.5);
-    transition: 1.5s;
+    transition: 1s;
 }
