@@ -1,0 +1,19 @@
+{
+  "name": "amain",
+  "version": "1.0.0",
+  "description": "ProtectoT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tthiaga/proyectoT-coderhouse-44715.git"
+  },
+  "author": "Thiago Da silva iemma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tthiaga/proyectoT-coderhouse-44715/issues"
+  },
+  "homepage": "https://github.com/tthiaga/proyectoT-coderhouse-44715#readme"
+}
