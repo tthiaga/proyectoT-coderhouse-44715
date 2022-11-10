@@ -70,6 +70,10 @@ main section p{
 
 .sobremi__main{
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .sobremi__img{
     width:300px;
@@ -118,6 +122,7 @@ main section p{
     .sobremi__ul{
         font-size: 15px;
     }
+
 }
 /* CONTACTO */
 
@@ -274,7 +279,7 @@ main section p{
         align-items: center;
     }
     .contacto__contenedor{
-        width: 60%;
+        width: 90%;
     }
     .contacto__info{
         padding-left: 250px;
@@ -284,7 +289,15 @@ main section p{
     .contacto__info{
         display: none;
     }
-}
+    .contacto__contenedor{
+        width: 90%;
+    }
+    }
+@media screen and (max-width: 530px) {
+    .contacto__contenedor{
+        width: 90%;
+    }
+    }
 /* FAQ */
 
 .main__faq{
@@ -376,4 +389,38 @@ main section p{
 .portfolio__img:hover{
     transform: scale(1.5);
     transition: 1s;
+}
+@media screen and (max-width: 1135px) {
+    .portfolio__p1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .portfolio__p1{
+        font-size: 35px;
+    }
+    .portfolio__p2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 810px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .grid2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .portfolio__img1, .portfolio__img2, .portfolio__img3{
+        display: none;
+    }
+    .portfolio__p1{
+        margin: 15px;
+    }
+    .portfolio__p2{
+        margin: 15px;
+    }
 }
