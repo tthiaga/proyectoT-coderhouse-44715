@@ -1,0 +1,115 @@
+
+// SOBRE MI
+
+@media screen and (max-width: 1024px){
+    .sobremi__titulo{
+        font-size: 60px;
+    }
+    .sobremi__p2{
+        font-size: 25px;
+    }
+    .sobremi__ul{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 475px){
+    .sobremi__titulo{
+        font-size: 40px;
+    }
+    .sobremi__p{
+        font-size: 15px;
+    }
+    .sobremi__ul{
+        font-size: 15px;
+    }
+}
+
+// CONTACTO
+
+@media screen and (max-width: 1120px){
+    .contacto__contenido{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto__formulario{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto__contenedor{
+        width: 90%;
+    }
+    .contacto__info{
+        padding-left: 250px;
+    }
+}
+@media screen and (max-width: 767px){
+    .contacto__info{
+        display: none;
+    }
+    .contacto__contenedor{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .contacto__contenedor{
+        width: 90%;
+    }
+}
+
+// FAQ
+
+@media screen and (max-width: 1320px){
+    .faq__preguntas{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 795px){
+    .faq__preguntas{
+        font-size: 25px;
+    }
+    .faq__respuestas{
+        font-size: 18px;
+    }
+}
+
+// PORTFOLIO
+
+@media screen and (max-width: 1135px) {
+    .portfolio__p1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .portfolio__p1{
+        font-size: 35px;
+    }
+    .portfolio__p2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 810px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .grid2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .portfolio__img1, .portfolio__img2, .portfolio__img3{
+        display: none;
+    }
+    .portfolio__p1{
+        margin: 15px;
+    }
+    .portfolio__p2{
+        margin: 15px;
+    }
+}
