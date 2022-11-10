@@ -118,9 +118,9 @@
 
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  flex-direction: column; }
+  align-items: center; }
 
 .inicio__titulo {
   color: #fab012;
@@ -145,9 +145,9 @@ main section p {
 .sobremi__main {
   padding-top: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  flex-direction: column; }
+  align-items: center; }
 
 .sobremi__img {
   width: 300px;
@@ -312,11 +312,11 @@ main section p {
 /* FAQ */
 .main__faq {
   min-height: 85vh;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  padding: 40px; }
+  align-items: center; }
 
 .faq__preguntas {
   color: #fab012;
@@ -366,7 +366,7 @@ main section p {
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px 200px;
   grid-column-gap: 100px;
-  grid-row-gap: 20px;
+  grid-row-gap: 25px;
   margin-bottom: 0px; }
 
 .portfolio__section {
