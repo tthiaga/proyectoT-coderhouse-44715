@@ -6,17 +6,17 @@
   padding-left: 30px; }
 
 .footer__icon {
-  color: white;
+  color: #ffffff;
   float: right; }
 
 .fa-solid {
-  color: white;
+  color: #ffffff;
   float: right;
   padding-right: 30px;
   text-decoration: none; }
 
 .footer__p {
-  color: white; }
+  color: #ffffff; }
 
 @media screen and (max-width: 1024px) {
   .hero {
@@ -83,31 +83,15 @@
   .faq__respuestas {
     font-size: 18px; } }
 
-@media screen and (max-width: 1135px) {
+@media screen and (max-width: 1180px) {
   .portfolio__p1 {
-    font-size: 40px; } }
+    font-size: 20px; } }
 
-@media screen and (max-width: 890px) {
-  .portfolio__p1 {
-    font-size: 35px; }
-  .portfolio__p2 {
-    font-size: 35px; } }
-
-@media screen and (max-width: 810px) {
-  .grid {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px; }
-  .grid2 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px; }
-  .portfolio__img1, .portfolio__img2, .portfolio__img3 {
+@media screen and (max-width: 620px) {
+  .portfolio__img1 {
     display: none; }
-  .portfolio__p1 {
-    margin: 15px; }
-  .portfolio__p2 {
-    margin: 15px; } }
+  .portfolio__img3 {
+    display: none; } }
 
 .main {
   min-height: 85vh;
@@ -356,18 +340,20 @@ main section p {
 .grid {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: 200px;
   grid-column-gap: 100px;
   grid-row-gap: 25px;
-  margin-bottom: 0px; }
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 .grid2 {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: 200px;
   grid-column-gap: 100px;
   grid-row-gap: 25px;
-  margin-bottom: 0px; }
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 .portfolio__section {
   display: flex;

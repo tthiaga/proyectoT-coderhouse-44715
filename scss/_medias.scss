@@ -79,37 +79,17 @@
 
 // PORTFOLIO
 
-@media screen and (max-width: 1135px) {
+@media screen and (max-width: 1180px) {
     .portfolio__p1{
-        font-size: 40px;
+        font-size: 20px;
     }
 }
-@media screen and (max-width: 890px) {
-    .portfolio__p1{
-        font-size: 35px;
+@media screen and (max-width: 620px){
+    .portfolio__img1{
+        display: none;   
     }
-    .portfolio__p2{
-        font-size: 35px;
+    .portfolio__img3{
+        display: none;   
     }
-}
-@media screen and (max-width: 810px) {
-    .grid{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 15px;
-    }
-    .grid2{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 15px;
-    }
-    .portfolio__img1, .portfolio__img2, .portfolio__img3{
-        display: none;
-    }
-    .portfolio__p1{
-        margin: 15px;
-    }
-    .portfolio__p2{
-        margin: 15px;
-    }
+    
 }

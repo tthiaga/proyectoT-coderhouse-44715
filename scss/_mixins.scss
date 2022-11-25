@@ -7,8 +7,9 @@
 @mixin grid {
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px;
     grid-column-gap: 100px;
     grid-row-gap: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }

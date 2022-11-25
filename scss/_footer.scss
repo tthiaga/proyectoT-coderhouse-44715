@@ -1,21 +1,21 @@
 .footer{
     min-height: 9vh;
-    background-color: #212529;
+    background-color: map-get($colores, color-oscuro);
     padding-top: 30px;
     padding-left: 30px;
 }
 .footer__icon{
-    color: white;
+    color: map-get($colores, color-blanco);
     float: right;
 }
 .fa-solid{
-    color: white;
+    color: map-get($colores, color-blanco);
     float: right;
     padding-right: 30px;
     text-decoration: none;
 }
 .footer__p{
-    color: white;
+    color: map-get($colores, color-blanco);
 }
 @media screen and (max-width: 1024px){
     .hero{
